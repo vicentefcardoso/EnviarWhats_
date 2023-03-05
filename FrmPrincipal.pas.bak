@@ -67,7 +67,6 @@ begin
    begin
      ShellExecute(Handle,'open', Pchar(Resultado),nil,nil,SW_SHOWMAXIMIZED);
    end;
-   //Close;
 end;
 
 procedure TFrmPrincial.FormKeyDown(Sender: TObject; var Key: Word;

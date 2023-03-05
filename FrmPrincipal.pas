@@ -74,7 +74,7 @@ procedure TFrmPrincial.FormKeyDown(Sender: TObject; var Key: Word;
 begin
  if KEY = VK_ESCAPE then
  begin
-   Close;
+    Close;
  end;
 end;
 
